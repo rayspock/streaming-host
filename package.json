@@ -1,0 +1,30 @@
+{
+  "name": "streaming-host",
+  "version": "1.0.0",
+  "description": "Streaming your local video with srt subtitles",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayspock/streaming-host.git"
+  },
+  "keywords": [
+    "streaming",
+    "video",
+    "srt",
+    "chromecast"
+  ],
+  "author": "rayspock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayspock/streaming-host/issues"
+  },
+  "homepage": "https://github.com/rayspock/streaming-host#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "srt-to-vtt": "^1.1.3"
+  }
+}
